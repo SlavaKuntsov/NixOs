@@ -70,14 +70,14 @@
       systems = [system];
       flake = {
         nixosConfigurations = {
-          jano = helpers.mkHost {
-            hostname = "jano";
-            user = "kuper";
+          slava = helpers.mkHost {
+            hostname = "nixos";
+            user = "slava";
           };
         };
 
         homeConfigurations = {
-          "kuper" = helpers.mkHome {user = "kuper";};
+          "slava" = helpers.mkHome {user = "slava";};
         };
 
         devShells.x86_64-linux.default = pkgs.mkShell {
