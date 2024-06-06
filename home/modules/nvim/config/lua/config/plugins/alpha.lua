@@ -65,7 +65,7 @@ return {
 					button(
 						"s",
 						"  > Settings",
-						":e /home/kuper/MyNixOS/home/modules/nvim/config/init.lua| :cd %:p:h | wincmd k | :NvimTreeOpen<CR>"
+						":e /home/slava/MyNixOS/home/modules/nvim/config/init.lua| :cd %:p:h | wincmd k | :NvimTreeOpen<CR>"
 					), -- <--- coz NixOS:)
 					button("q", "󰩈  > Quit NVIM", ":qa<CR>"),
 				},

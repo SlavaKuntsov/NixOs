@@ -22,8 +22,8 @@
       };
     };
     profiles = {
-      kuper = {
-        name = "kuper";
+      slava = {
+        name = "slava";
         extensions = with pkgs.nur.repos.rycee.firefox-addons; [
           vimium
           bitwarden

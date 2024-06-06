@@ -4,11 +4,11 @@
     ../../modules
   ];
 
-  time.timeZone = "Europe/Moscow";
+  time.timeZone = "Europe/Minsk";
   i18n.defaultLocale = "en_US.UTF-8";
 
   networking = {
-    hostName = "jano";
+    hostName = "nixos";
     networkmanager = {enable = true;};
   };
 
