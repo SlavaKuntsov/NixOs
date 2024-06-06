@@ -70,7 +70,7 @@
       systems = [system];
       flake = {
         nixosConfigurations = {
-          slava = helpers.mkHost {
+          nixos = helpers.mkHost {
             hostname = "nixos";
             user = "slava";
           };
