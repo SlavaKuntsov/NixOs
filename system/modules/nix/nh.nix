@@ -1,6 +1,6 @@
 {...}: {
   # nh default flake
-  environment.variables.FLAKE = "/home/slava/MyNixOS";
+  environment.variables.FLAKE = "/home/slava/nixos";
 
   programs.nh = {
     enable = true;
